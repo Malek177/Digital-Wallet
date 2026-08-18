@@ -30,7 +30,6 @@ function App() {
     return getDefaultTransactions();
   });
 
-  // Form state
   const [formType, setFormType] = useState('income');
   const [formCategory, setFormCategory] = useState(INCOME_CATEGORIES[0]);
   const [formAmount, setFormAmount] = useState('');
@@ -106,7 +105,7 @@ function App() {
     <div className="app">
       <header className="header">
         <div className="header-left">
-          <h1><i className="fas fa-wallet" />Expense Manager</h1>
+          <h1><i className="fas fa-wallet" />Eye Wallet</h1>
           <div className="sub"><i className="far fa-calendar-alt" />Digital Wallet Tracker</div>
         </div>
         <div className="Navbar">

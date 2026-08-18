@@ -28,7 +28,7 @@ function History({ transactions, handleDelete }){
                     {tx.type === 'income' ? '+' : '-'}${tx.amount.toFixed(2)}
                   </span>
                   <button className="delete-btn" onClick={() => handleDelete(tx.id)} title="Delete">
-                    Delete<i className="fas fa-trash-alt" />
+                    Delete<i className="fas fa-trash-alt"/>
                   </button>
                 </div>
               </div>
