@@ -11,7 +11,7 @@ const EXPENSE_CATEGORIES = ['Food', 'Transport', 'Shopping', 'Bills', 'Entertain
 let nextId = 10;
 
 const getDefaultTransactions = () => [
-  { id: 1, type: 'income', category: 'Salary', amount: 3200, date: '2026-08-01', description: 'August salary' },
+  //{ id: 1, type: 'income', category: 'Salary', amount: 3200, date: '2026-08-01', description: 'August salary' },
 ];
 
 function App() {
