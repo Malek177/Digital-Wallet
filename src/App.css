@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+.name{
+  padding-top: 20px;
+  padding-left: 10px;
+  font-size: 12px;
+  color: gray;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   background: #f4f6fb;
@@ -277,7 +284,6 @@ body {
   transform: translateY(0);
 }
 
-/* ─── Transaction list ─── */
 .tx-list {
   max-height: 320px;
   overflow-y: auto;

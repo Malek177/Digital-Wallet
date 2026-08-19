@@ -107,6 +107,7 @@ function App() {
         <div className="header-left">
           <h1><i className="fas fa-wallet" />Eye Wallet</h1>
           <div className="sub"><i className="far fa-calendar-alt" />Digital Wallet Tracker</div>
+          <div className = "name">By Malek Sakr</div>
         </div>
         <div className="Navbar">
           <h2 className="nav-text"><Link to="/" className="links">Home</Link> | <Link to="/components/Summary" className="links">Summary</Link> | <Link to="/components/History" className="links">History</Link></h2>
